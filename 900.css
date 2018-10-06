@@ -1,0 +1,154 @@
+nav a{
+    color: teal;
+  }
+  
+  nav a:hover{
+    color:black;
+  }
+  
+  a:hover{
+    text-decoration: none;
+  }
+  
+  nav{
+    float: right;
+    padding: 6px 10px 20px 30px;
+    top: 0;
+    right: 0;
+    color: teal;
+  }
+  
+  .name{
+    float: left;
+    background-color: teal;
+  }
+  
+  .btn{
+    margin-right: 10px;
+  }
+  
+  .top {
+    background-color: #ffffff;
+    border: solid 2px #cccccc;
+  }
+  
+  .Myphoto {
+    height: 150px;
+    width: 125px;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border: solid 2px #cccccc;
+    margin-top: 20px;
+  }
+  
+  body {
+    background-image: url("use_your_illusion.png");
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mainbodycontact{
+    border: #cccccc;
+    padding: 20px 200px 20px 200px;
+    background-color: white;
+  }
+  
+  .messageInput {
+      border: solid 2px #cccccc;
+      height: 200px;
+      padding: 5px 200px;
+      float:center;
+  }
+  
+  .emailInput {
+      border: solid 2px #cccccc;
+      padding: 5px  200px;
+      float:center;
+  }
+  
+  .nameInput {
+      border: solid 2px #cccccc;
+      padding: 5px 200px;
+      float:center;
+  }
+  
+  .form1 {
+      margin-left: 50px;
+      margin-right: 50px;
+      padding: 20px 20px 20px 20px;
+  }
+  
+  #send {
+      margin-right: 50px;
+      padding: 10px 305px 10px 350px;
+      background-color: teal;
+  }
+  
+  #send a :hover{
+        background-color: white;
+  }
+  
+  .Imadethis {
+     margin-left: 300px;
+     margin-right: 300px;
+  }
+  
+  .cat1 {
+      padding: 16px 16px;
+      clear:both;
+      height: 200px;
+      float: left;
+     width: 300px;
+     background-color: white;
+     border: solid 2px #cccccc;
+     margin-top: 65px;
+  }
+  
+  .cat2 {
+      padding: 16px 16px;
+      clear:both;
+      height: 200px;
+      float: right;
+      width: 300px;
+      background-color: white;
+      border: solid 2px #cccccc;
+      margin: -196px 20px 20px 20px;
+  }
+  
+  .cat3 {
+      padding: 16px 16px;
+      clear:both;
+      height: 200px;
+      float: left;
+     width: 300px;
+     background-color: white;
+     border: solid 2px #cccccc;
+     margin: 20px 20px 20px -1px;
+  }
+  
+  
+  .cat4 {
+      padding: 16px 16px;
+      clear:both;
+      height: 200px;
+      float: right;
+     width: 300px;
+     background-color: white;
+     border: solid 2px #cccccc;
+     margin: -225px 20px 20px -1px;
+  }
+  
+  
+  .cat5 {
+      padding: 7px 20px;
+      clear:both;
+      height: 200px;
+      float: left;
+     width: 300px;
+     background-color: white;
+     border: solid 2px #cccccc;
+     margin: 20px 20px 20px -1px;
+   }
+  
