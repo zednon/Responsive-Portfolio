@@ -1,3 +1,4 @@
+
 nav a{
     color: teal;
   }
@@ -31,18 +32,23 @@ nav a{
     background-color: #ffffff;
     border: solid 2px #cccccc;
   }
-  
+
   .Myphoto {
     height: 150px;
     width: 125px;
   }
+
+  .fred {
+  width: 64%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 300px;
+  margin-left: 300px;
+  background-color: #ffffff;
+  border: solid 2px #cccccc;
+
+}
   
-  .container {
-    background-color: #ffffff;
-    padding: 20px 20px;
-    border: solid 2px #cccccc;
-    margin-top: 20px;
-  }
   
   body {
     background-image: url("use_your_illusion.png");
@@ -99,6 +105,7 @@ nav a{
       padding: 16px 16px;
       clear:both;
       height: 200px;
+      border-radius: 25px;
       float: left;
      width: 300px;
      background-color: white;
@@ -112,6 +119,7 @@ nav a{
       height: 200px;
       float: right;
       width: 300px;
+      border-radius: 25px;
       background-color: white;
       border: solid 2px #cccccc;
       margin: -196px 20px 20px 20px;
@@ -123,6 +131,7 @@ nav a{
       height: 200px;
       float: left;
      width: 300px;
+     border-radius: 25px;
      background-color: white;
      border: solid 2px #cccccc;
      margin: 20px 20px 20px -1px;
@@ -134,6 +143,7 @@ nav a{
       clear:both;
       height: 200px;
       float: right;
+      border-radius: 25px;
      width: 300px;
      background-color: white;
      border: solid 2px #cccccc;
@@ -147,8 +157,46 @@ nav a{
       height: 200px;
       float: left;
      width: 300px;
+     border-radius: 25px;
      background-color: white;
      border: solid 2px #cccccc;
      margin: 20px 20px 20px -1px;
    }
   
+  
+   .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: teal;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
